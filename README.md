@@ -51,6 +51,7 @@ Instead of relying on one model, multiple specialized agents analyze the problem
 
 ## System Architecture
 
+```mermaid
 flowchart TD
 
 A[Ticker Input] --> B[Company Financial Data]
@@ -68,6 +69,7 @@ G --> H[Stability Testing]
 H --> I[Final Intrinsic Valuation]
 
 I --> J[Market Comparison]
+```
 
 
 # Agents
