@@ -22,10 +22,15 @@ The goal of the project is to explore whether **agent-based reasoning can improv
 # Key Features
 
 • Multi-agent AI architecture for financial valuation
+
 • Integration of macroeconomic indicators such as inflation, GDP growth, and unemployment
+
 • Agent debate and consensus mechanism for valuation estimates
+
 • Stability testing under macroeconomic perturbations
+
 • Explainable valuation reasoning
+
 • Market comparison against real-world market capitalization
 
 ---
