@@ -52,21 +52,22 @@ Instead of relying on one model, multiple specialized agents analyze the problem
 ## System Architecture
 
 flowchart TD
-    A[Ticker Input] --> B[Company Financial Data]
-    A --> C[Macroeconomic Data (FRED)]
 
-    B --> D[DCF Agent]
-    B --> E[Risk Agent]
-    C --> F[Macro Agent]
+A[Ticker Input] --> B[Company Financial Data]
+A --> C[Macroeconomic Data (FRED)]
 
-    D --> G[Consensus Engine]
-    E --> G
-    F --> G
+B --> D[DCF Agent]
+B --> E[Risk Agent]
+C --> F[Macro Agent]
 
-    G --> H[Stability Testing]
-    H --> I[Final Intrinsic Valuation]
+D --> G[Consensus Engine]
+E --> G
+F --> G
 
-    I --> J[Market Comparison]
+G --> H[Stability Testing]
+H --> I[Final Intrinsic Valuation]
+
+I --> J[Market Comparison]
 
 
 # Agents
