@@ -184,8 +184,6 @@ demo.ipynb           → Interactive demo notebook
 
 sample_output.json   → Example system output
 
-docs/
-    architecture.png → System architecture diagram
 ```
 
 ---
